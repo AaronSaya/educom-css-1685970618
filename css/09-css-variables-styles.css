@@ -1,0 +1,53 @@
+:root {
+
+    /* Fonts */
+    --regular:"Arial";
+
+    /* Colors */
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+
+    /* Background-Colors */
+
+    --background-color-1: #156;
+    --background-color-2: #2D2D2D;
+    --background-color-3: #166F;
+
+    /* Padding*/
+    --light-padding: 10px;
+    --regular-padding: 50px;
+    --heavy-padding: 100px;
+
+    /* Margins */
+    --small-margin: 20px;
+    --medium-margin: 40px;
+    --large-margin: 60px;
+}
+
+
+
+
+
+
+/* Useage */
+
+div {
+
+    padding: var(--heavy-padding);
+    margin: var(--small-margin);
+    background-color: var(--background-color-3);
+}
+
+
+h1 {
+
+    font-family: var(--regular);
+    color: var(--darker-red);
+}
