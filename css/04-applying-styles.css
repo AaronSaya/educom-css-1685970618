@@ -1,0 +1,40 @@
+
+.redsquare {
+    background-color: rgb(155, 0, 0);
+    
+    
+
+}
+
+#person{
+    background-color: rgb(54, 154, 119);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+a { color: #F00;
+    }
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav { height: 80px;
+    background-color: rgb(54, 154, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+h1 {background-color: rgb(189, 0, 0);}
+
+h2 { justify-content: center;}
