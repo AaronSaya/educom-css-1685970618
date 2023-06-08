@@ -1,0 +1,10 @@
+.cascading-parent {
+    font-weight: bold;
+    color :#FFF;
+}
+
+.cascading-child {
+    background-color: #FF0 !important;
+    width: 200px;
+    height: 200px;
+}
